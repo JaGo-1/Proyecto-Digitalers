@@ -1,0 +1,67 @@
+.main{
+    padding: 80px 10px 80px 10px;
+    background: url(../Recursos/fondo/neon-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main .container-div{
+    background-color: #fff;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px;
+    border-radius: 20px;
+    padding: 50px 40px 0 40px;
+    position: relative;
+
+}
+
+.main #container-div:hover{
+    border: 4px solid  rgb(77, 200, 231) ;
+}
+
+.main .container-div ul div{
+    display: flex;
+}
+
+.main .container-div ul{
+    padding-top: 20px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.seleccionar{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(77, 200, 231);
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    bottom: 90px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.seleccionar:hover{
+   background: rgb(86, 221, 255);
+}
+
+li, .seleccionar{
+    font-size: 15px;
+}
+
+p{
+    color: #46a521;
+}
